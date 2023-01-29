@@ -1,0 +1,6 @@
+def faz_jogada(tab, horizontal, vertical):
+    if tab[horizontal][vertical] == 1:
+        tab[horizontal][vertical] = 'X'
+    else:
+        tab[horizontal][vertical] = '-'
+    return tab
