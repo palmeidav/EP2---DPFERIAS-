@@ -1,0 +1,1 @@
+def define_posicoes(horizontal, vertical, orientacao, tamanho):
