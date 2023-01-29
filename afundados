@@ -5,4 +5,11 @@ def afundados(frota, tab):
             
             afundado = True
 
-            
+            for coord in lugar:
+                if tab[coord[0]][coord[1]] != 'X':
+
+                    afundado = False
+            if afundado:
+                afundados += 1
+    
+    return afundados
