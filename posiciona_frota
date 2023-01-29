@@ -1,1 +1,8 @@
 def posiciona_frota(frota):
+    horizontal = [0]*10
+    tab = []
+    for e in range(10):
+        tab.append([0]*10)
+    print(tab)
+    
+   
