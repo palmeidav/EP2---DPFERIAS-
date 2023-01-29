@@ -5,4 +5,11 @@ def posiciona_frota(frota):
         tab.append([0]*10)
     print(tab)
     
-   
+    for nav, lista in frota.items():
+        for e in lista:
+            for lugar in e:
+                horizontal = lugar[0]
+                vertical = lugar[1]
+                tab[horizontal][vertical] = 1
+    
+    return tab
