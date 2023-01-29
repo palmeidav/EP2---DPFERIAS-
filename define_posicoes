@@ -1,1 +1,6 @@
 def define_posicoes(horizontal, vertical, orientacao, tamanho):
+    posicao = []
+    if orientacao == 'vertical':
+        for e in range(tamanho):
+            posicao.append([horizontal + e, vertical])
+
