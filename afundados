@@ -1,3 +1,8 @@
 def afundados(frota, tab):
     afundados = 0
-  
+    for embarcacoes in frota:
+        for lugar in frota[embarcacoes]:
+            
+            afundado = True
+
+            
