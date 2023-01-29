@@ -3,4 +3,7 @@ def define_posicoes(horizontal, vertical, orientacao, tamanho):
     if orientacao == 'vertical':
         for e in range(tamanho):
             posicao.append([horizontal + e, vertical])
-
+    else:
+        for e in range(tamanho):
+            posicao.append([horizontal, vertical + e])
+    return posicao
